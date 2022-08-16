@@ -14,4 +14,5 @@ body {
   align-items: center;
   height: 100vh;
   text-align: center;
+  background: url(/assets/project1-library-background.jpg) no-repeat center center/ cover;
 }
