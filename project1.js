@@ -24,7 +24,7 @@ const quotes = [{
   person: `  Maya Angelou` 
 
 },{
-  quote: `"I haven't failed. I've just found 10,000 ways that won't work.."`,
+  quote: `"I haven't failed. I've just found 10,000 ways that won't work."`,
   person: ` Thomas Edison` 
 
 }, {
@@ -32,7 +32,7 @@ const quotes = [{
   person: ` Jim Rohn` 
 
 }, {
-  quote: `"Life shrinks or expands in proportion to one’s courage."`,
+  quote: `"Life shrinks or expands in proportion to one's courage."`,
   person: ` Anais Nin` 
 
 }, {
@@ -61,3 +61,11 @@ const quotes = [{
 }, ];
 
 // event listener
+btn.addEventListener('click', function(){
+
+  let random = Math.floor(Math.random() * quotes.length);
+
+  quote.innerText = quotes[random].quote;
+  person.innerText = quotes[random].person;
+
+})
