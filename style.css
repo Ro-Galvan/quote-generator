@@ -46,5 +46,25 @@ body {
 .main-content .text-area {
   font-size: 1.5rem;
   line-height: 1.5;
+}
 
+.main-content .person {
+  font-size: 1.6rem;
+  color: rgb(191, 63, 63);
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.button-area button {
+  background-color: #262626;
+  color: #fff;
+  font-size: 1.3rem;
+  padding: 10px 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+
+}
+
+.button-area button:active {
+  background-color: lightblue;
 }
